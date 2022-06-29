@@ -16,21 +16,30 @@
       h1 {
         background-color: #fff;
         position: sticky;
-        top: 0px;
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         margin: 20px 20px;
         font-size: 50px;
-        padding: 15px 10%;
+        padding: 20px 20px;
       }
 
       h2 {
+	background-color: #fff;
+        position: sticky;
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        margin: 10px 10px;
+        margin: 20px 20px;
         font-size: 25px;
-        padding: 7px 10%;
+        padding: 20px 20px;
+      }
+      p {
+	background-color: #fff;
+        position: sticky;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 20px 20px;
+        font-size: 20px;
+        padding: 20px 20px;
       }
       .button {
-        background-color: #285d6d;
+        background-color: #ffffff;
         border: none;
         border-radius: 10px;
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -39,7 +48,7 @@
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
+        font-size: 20px;
         margin: 20px 20px;
         cursor: pointer;
       }
@@ -48,18 +57,17 @@
         background-color: #ff0000;
       }
       
-      .body{
+      .bg{
+	background-color: #285d6d;
 	position: fixed;
 	top: 0;
 	right: 0;
 	bottom: 0;
-	background-image: url("https://wallpapercave.com/wp/wp2578195.jpg");
+
 	min-width: 100%;
 	min-height: 100%;
-	-webkit-filter: blur(20px) opacity(80%);
-	-o-filter: blur(20px) opacity(80%);
-	filter: blur(20px) opacity(80%);
-	z-index: -100;
+
+	z-index: -1000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-ms-background-size: cover;
@@ -69,7 +77,9 @@
     </style>
   </head>
   <body>
+<div class="bg"></div>
     <h1>TRANSFER CENTER</h1>
     <h2>FABIO STUBER</h2>
+	<p>Für die umwelt</p>
   </body>
 </html>
