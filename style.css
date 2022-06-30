@@ -1,0 +1,64 @@
+ * {
+     text-align: center;
+
+ }
+
+ .box {
+     background-color: #fff;
+     position: sticky;
+     margin: 20px 20px;
+     padding: 20px 20px;
+     border: none;
+     border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+ }
+
+ h1 {
+     position: sticky;
+     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 50px;
+     color: #285d6d;
+ }
+
+ h2 {
+     position: sticky;
+     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 25px;
+ }
+
+ p {
+     position: sticky;
+     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 20px;
+ }
+
+ .button {
+     background-color: #285d6d;
+     border: none;
+     border-radius: 10px;
+     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+     color: #fff;
+     padding: 20px 20%;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 20px;
+     margin: 20px 20px;
+     cursor: pointer;
+ }
+
+ .bg {
+     background-color: #285d6d;
+     position: fixed;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     min-width: 100%;
+     min-height: 100%;
+     z-index: -1000;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -ms-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+ }
